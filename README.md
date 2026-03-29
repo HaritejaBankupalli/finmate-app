@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 FinMate AI
 
-## Getting Started
+FinMate AI is a smart financial planning web application that helps users calculate their FIRE (Financial Independence, Retire Early) goal, estimate required SIP (Systematic Investment Plan), and get AI-powered financial insights.
 
-First, run the development server:
+---
+
+## 📌 Problem Statement
+
+Many individuals struggle to:
+
+* Plan their retirement effectively
+* Calculate how much to invest monthly
+* Understand financial growth and compounding
+
+This leads to poor financial decisions and delayed financial independence.
+
+---
+
+## 💡 Solution
+
+FinMate AI solves this by providing:
+
+* 📊 Accurate FIRE corpus calculation
+* 💸 Monthly SIP calculation using compound interest
+* 🤖 AI-powered assistant for financial queries
+* 📈 Real-time insights for better planning
+
+---
+
+## ✨ Features
+
+* 🔢 FIRE Corpus Calculator
+* 💰 SIP Calculator (with compounding logic)
+* 📉 Expense-based planning
+* 🤖 AI Chat Assistant
+* ⚡ Fast and responsive UI (Next.js)
+* 📊 Financial Insights Dashboard
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js, React
+* **Backend:** Node.js (API routes)
+* **AI Integration:** OpenAI API
+* **Styling:** CSS / Tailwind
+
+---
+
+## 🧮 SIP Formula Used
+
+Future Value of SIP:
+
+FV = SIP × [((1 + r)^n - 1) / r]
+
+Where:
+
+* r = monthly return rate
+* n = total number of months
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/finmate-ai.git
+cd finmate-ai
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Open in browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Demo Workflow
 
-To learn more about Next.js, take a look at the following resources:
+1. Enter income, expenses, and retirement goals
+2. App calculates FIRE corpus
+3. Displays required monthly SIP
+4. AI assistant provides insights and suggestions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📊 Example Output
 
-## Deploy on Vercel
+* FIRE Corpus: ₹1.65 Crore
+* Monthly SIP: ₹16,700
+* Insight: "Invest consistently to achieve early retirement."
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 AI Feature
+
+FinMate AI uses AI to:
+
+* Answer user financial questions
+* Provide smart investment suggestions
+* Improve decision-making
+
+---
+
+## ⚠️ Disclaimer
+
+This application is for educational purposes only.
+Please consult a financial advisor before making investment decisions.
+
+---
+
+## 📌 Future Improvements
+
+* 📈 Interactive charts and graphs
+* 📱 Mobile optimization
+* 🔐 User authentication
+* ☁️ Cloud deployment
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork and contribute to FinMate AI!
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
